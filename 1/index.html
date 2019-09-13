@@ -186,15 +186,58 @@
             return 1.337 * wizardWidth;
         }
 
+<<<<<<< Updated upstream
+=======
+      <button class="button setup-submit">Сохранить</button>
+    </div>
+  </form>
+</div>
+
+<footer>
+  <p><a href="http://htmlacademy.ru" class="footer-link"><img src="img/htmlacademy-logo.png" alt="HTML Academy"
+                                                              width="130">Сделано в HTML Academy</a>в 2017 году</p>
+</footer>
+
+<template id="similar-wizard-template" style="display: none">
+  <div class="setup-similar-item">
+    <div class="setup-similar-content">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 86" class="setup-similar-wizard">
+        <g class="wizard">
+          <use xlink:href="#wizard-coat" class="wizard-coat"></use>
+          <use xlink:href="#wizard-head" class="wizard-head"></use>
+          <use xlink:href="#wizard-eyes" class="wizard-eyes"></use>
+          <use xlink:href="#wizard-hands" class="wizard-hands"></use>
+        </g>
+      </svg>
+    </div>
+    <p class="setup-similar-label">Петр Петров</p>
+  </div>
+</template>
+<script>
+        var fireballSize = 22;
+        var getFireballSpeed = function(left) {
+            return left ? 5 : 2;
+        }
+        var wizardSpeed = 3;
+        var wizardWidth = 70;
+        var getWizardHeight = function(wizardHeight) {
+            return 1.337 * wizardWidth;
+        }
+>>>>>>> Stashed changes
         var getWizardX = function(width) {
             return (width - wizardWidth) / 2;
         }
         var getWizardY = function(height) {
             return height / 3 - getWizardHeight(wizardWidth);
         };
+<<<<<<< Updated upstream
 
     </script>
     <script src="js/game.js"></script>
+=======
+</script>
+<script src="js/game.js"></script>
+>>>>>>> Stashed changes
 
 </body>
 
